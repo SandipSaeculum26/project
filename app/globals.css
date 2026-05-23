@@ -1,26 +1,95 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0C0C12;
+  color: white;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Space Grotesk for all display/heading weight text */
+.font-black,
+.font-bold {
+  font-family: var(--font-display), system-ui, sans-serif;
+}
+
+/* JetBrains Mono for code */
+code, pre, kbd, samp {
+  font-family: var(--font-mono), ui-monospace, monospace;
+}
+
+/* ── Card surface (matches #111118 in screenshot) ── */
+.card {
+  background: #111118;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 1rem;
+}
+
+.card-hover {
+  transition: border-color 0.25s, background 0.25s;
+}
+.card-hover:hover {
+  border-color: rgba(139, 92, 246, 0.35);
+  background: #13131C;
+}
+
+/* ── Input fields ── */
+.field {
+  background: #0C0C12;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.75rem;
+  color: white;
+  transition: border-color 0.2s;
+}
+.field:focus {
+  outline: none;
+  border-color: rgba(139, 92, 246, 0.55);
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 92, 246, 0.4);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 92, 246, 0.7);
+}
+
+/* ── Selection ── */
+::selection {
+  background: rgba(139, 92, 246, 0.3);
+  color: inherit;
+}
+
+/* ── Focus ── */
+:focus-visible {
+  outline: 2px solid rgba(139, 92, 246, 0.5);
+  outline-offset: 2px;
+}
+
+/* ── Animations ── */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }
