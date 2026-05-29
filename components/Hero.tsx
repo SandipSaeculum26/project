@@ -7,7 +7,7 @@ export default function Hero() {
     const scrollTo = (id: string) => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
 
     return (
-        <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0C0C12] pt-14">
+        <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0C0C12] sm:pt-14">
             {/* Grid background */}
             <div
                 className="absolute inset-0 pointer-events-none"
@@ -26,7 +26,7 @@ export default function Hero() {
                 }}
             />
 
-            <div className="relative z-10 max-w-4xl mx-auto px-6 flex flex-col items-center text-center gap-8">
+            <div className="relative z-10 max-w-3xl mx-auto w-full px-4 sm:px-6 flex flex-col items-center text-center gap-8">
                 {/* Badge */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -48,10 +48,10 @@ export default function Hero() {
                     transition={{ duration: 0.6, delay: 0.1 }}
                     className="flex flex-col gap-1"
                 >
-                    <div className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[1.05] text-white">
+                    <div className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.05] text-white">
                         Frontend Developer
                     </div>
-                    <div className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[1.05] text-white">
+                    <div className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.05] text-white">
                         crafting{" "}
                         <span
                             style={{
@@ -64,7 +64,7 @@ export default function Hero() {
                             scalable and
                         </span>
                     </div>
-                    <div className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[1.05]">
+                    <div className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.05]">
                         <span
                             style={{
                                 background: "linear-gradient(90deg, #A78BFA 0%, #38BDF8 100%)",
@@ -84,7 +84,7 @@ export default function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
-                    className="max-w-2xl text-white/50 text-lg leading-relaxed"
+                    className="max-w-2xl w-full text-white/50 text-base sm:text-lg leading-relaxed"
                 >
                     Hi, I'm <span className="text-white font-bold">{portfolioData.personal.name}</span> — a frontend
                     engineer with {portfolioData.personal.experience} building production React apps with TypeScript,
