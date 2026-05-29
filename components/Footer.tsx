@@ -43,7 +43,7 @@ export default function Footer() {
           </div>
 
           {/* Social */}
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 pb-4">
             <div className="text-white/70 font-semibold text-sm">Social</div>
             <div className="flex gap-3">
               {portfolioData.social.map((social) => (

@@ -7,7 +7,7 @@ export default function Hero() {
     const scrollTo = (id: string) => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
 
     return (
-        <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0C0C12] pt-24">
+        <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0C0C12] pt-14">
             {/* Grid background */}
             <div
                 className="absolute inset-0 pointer-events-none"
@@ -109,7 +109,7 @@ export default function Hero() {
                     </button>
                     <button
                         onClick={() => scrollTo("contact")}
-                        className="px-8 py-1 rounded-xl border border-white/[0.12] bg-[#111118] text-white/80 font-semibold text-sm hover:text-white hover:border-white/20 transition-all duration-200"
+                        className="px-8 py-3 rounded-xl border border-white/[0.12] bg-[#111118] text-white/80 font-semibold text-sm hover:text-white hover:border-white/20 transition-all duration-200"
                     >
                         Contact Me
                     </button>
