@@ -35,7 +35,7 @@ const highlights = [
 
 export default function About() {
   return (
-    <section id="about" className="py-28 px-6 bg-[#0C0C12]">
+    <section id="about" className="sm:py-28 px-6 bg-[#0C0C12]">
       <div className="max-w-6xl mx-auto flex flex-col gap-14">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
@@ -45,7 +45,7 @@ export default function About() {
           className="flex flex-col gap-6"
         >
           <Badge>About</Badge>
-          <div className="text-5xl lg:text-6xl font-black tracking-tight leading-tight text-white">
+          <div className="text-4xl lg:text-6xl font-black tracking-tight leading-tight text-white">
             <div>Building interfaces that feel</div>
             <div>inevitable</div>
           </div>

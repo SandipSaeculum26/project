@@ -63,7 +63,7 @@ const skillGroups = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-28 px-6 bg-[#0C0C12]">
+    <section id="skills" className="sm:py-28 px-6 bg-[#0C0C12]">
       <div className="max-w-6xl mx-auto flex flex-col gap-14">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
@@ -73,7 +73,7 @@ export default function Skills() {
           className="flex flex-col gap-6"
         >
           <Badge>Skills</Badge>
-          <div className="text-5xl lg:text-6xl font-black tracking-tight leading-tight text-white">
+          <div className="text-4xl lg:text-6xl font-black tracking-tight leading-tight text-white">
             The stack I reach for
           </div>
         </motion.div>

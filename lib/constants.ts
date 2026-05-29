@@ -6,8 +6,8 @@ export const portfolioData = {
     description:
       "Crafting scalable and performant web applications with a focus on user experience and clean code architecture.",
     bio: "I'm a passionate frontend developer with 1+ year of professional experience building production-grade applications. I specialize in creating performant, accessible, and visually stunning web interfaces using modern technologies.",
-    location: "Khargone",
-    email: "your.sandeep26062004@gmail.com",
+    location: "Khargone (MP), India",
+    email: "sandeep26062004@gmail.com",
     phone: "+91 8319969143",
   },
 
@@ -77,7 +77,7 @@ export const portfolioData = {
       longDescription:
         "A modern wallpaper application with advanced filtering, search capabilities, and high-quality image downloads. Optimized for performance with image lazy loading and caching.",
       image:
-        "https://images.unsplash.com/photo-1634986676612-1fceb36a3c4a?w=1200&h=600&fit=crop",
+        "https://w0.peakpx.com/wallpaper/795/959/HD-wallpaper-best-web-development-company-in-lucknow-web-developer-web-design-web-application-web-development.jpg",
       tech: ["React", "Tailwind CSS", "API Integration", "Image Optimization"],
       liveUrl: "https://wallcraft-beige.vercel.app/",
       githubUrl: "https://github.com",
@@ -91,33 +91,13 @@ export const portfolioData = {
       longDescription:
         "A fully responsive e-commerce platform featuring product discovery, filtering system, and smooth checkout experience. Built with performance as a priority.",
       image:
-        "https://images.unsplash.com/photo-1460925895917-adf4ee868993?w=1200&h=600&fit=crop",
+        "https://repository-images.githubusercontent.com/456963513/82528385-a73f-488f-9003-513321283a6b",
       tech: [
         "React",
         "TypeScript",
         "Tailwind CSS",
         "Redux",
         "Performance Optimization",
-      ],
-      liveUrl: "#",
-      githubUrl: "https://github.com",
-      featured: false,
-    },
-    {
-      id: 4,
-      title: "Chat Application UI",
-      description:
-        "Real-time chat interface with clean and responsive layout. Features message threading, typing indicators, and user presence.",
-      longDescription:
-        "A sophisticated chat application UI designed for real-time communication. Includes features like message history, user profiles, and responsive design across all devices.",
-      image:
-        "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&h=600&fit=crop",
-      tech: [
-        "React",
-        "Framer Motion",
-        "Tailwind CSS",
-        "Real-time Updates",
-        "Responsive Design",
       ],
       liveUrl: "#",
       githubUrl: "https://github.com",

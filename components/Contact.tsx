@@ -73,11 +73,11 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-28 px-6 bg-[#0C0C12]" ref={ref}>
+    <section id="contact" className="sm:py-28 px-6 bg-[#0C0C12]" ref={ref}>
       <div className="max-w-6xl mx-auto flex flex-col gap-14">
         <div className="flex flex-col gap-6">
           <Badge>Get In Touch</Badge>
-          <div className="text-5xl lg:text-6xl font-black tracking-tight leading-tight text-white">
+          <div className="text-4xl lg:text-6xl font-black tracking-tight leading-tight text-white">
             <div>Let's build something</div>
             <div>amazing <span className="text-violet-400">together</span></div>
           </div>
@@ -125,7 +125,7 @@ export default function Contact() {
           >
             <div className="card p-8">
               <form onSubmit={handleSubmit} className="flex flex-col gap-6">
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid sm:grid-cols-2 gap-4">
                   <div className="flex flex-col gap-2.5">
                     <label className="text-white/45 text-[10px] font-semibold tracking-[0.2em] uppercase">
                       Name

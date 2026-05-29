@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/Badge";
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-28 px-6 bg-[#0C0C12]">
+    <section id="experience" className="sm:py-28 px-6 bg-[#0C0C12]">
       <div className="max-w-5xl mx-auto flex flex-col gap-16">
         {/* Header */}
         <motion.div
