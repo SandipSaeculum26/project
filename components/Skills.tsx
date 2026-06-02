@@ -63,7 +63,7 @@ const skillGroups = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="sm:py-28 px-6 bg-[#0C0C12]">
+    <section id="skills" className="sm:py-28 py-10 px-6 bg-[#0C0C12]">
       <div className="max-w-6xl mx-auto flex flex-col gap-14">
         <motion.div
           initial={{ opacity: 0, y: 24 }}

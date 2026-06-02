@@ -73,7 +73,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="sm:py-28 px-6 bg-[#0C0C12]" ref={ref}>
+    <section id="contact" className="sm:py-28 py-10 px-6 bg-[#0C0C12]" ref={ref}>
       <div className="max-w-6xl mx-auto flex flex-col gap-14">
         <div className="flex flex-col gap-6">
           <Badge>Get In Touch</Badge>

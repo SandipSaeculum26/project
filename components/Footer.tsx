@@ -64,10 +64,6 @@ export default function Footer() {
 
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4 pt-10 border-t border-white/[0.06] text-white/30 text-xs">
           <div>© {currentYear} {portfolioData.personal.name}. All rights reserved.</div>
-          <div className="flex gap-6">
-            <a href="#" className="hover:text-white/60 transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white/60 transition-colors">Terms &amp; Conditions</a>
-          </div>
         </div>
       </div>
     </footer>

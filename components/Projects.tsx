@@ -10,7 +10,7 @@ export default function Projects() {
     const rest = portfolioData.projects.filter((p) => !p.featured);
 
     return (
-        <section id="projects" className="py-28 px-6 bg-[#0C0C12]">
+        <section id="projects" className="sm:py-28 py-10 px-6 bg-[#0C0C12]">
             <div className="max-w-6xl mx-auto flex flex-col gap-12">
                 {/* Header */}
                 <motion.div
@@ -66,7 +66,7 @@ export default function Projects() {
                                 <div className="text-white/50 text-sm leading-relaxed max-w-xl">{featured.description}</div>
                             </div>
                             <div className="flex flex-col gap-4 flex-wrap gap-2">
-                                <div>
+                                <div className="flex flex-wrap gap-2">
                                     {featured.tech.map((tech) => (
                                         <span
                                             key={tech}
