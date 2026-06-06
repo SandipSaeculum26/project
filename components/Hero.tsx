@@ -48,10 +48,10 @@ export default function Hero() {
                     transition={{ duration: 0.6, delay: 0.1 }}
                     className="flex flex-col gap-1"
                 >
-                    <div className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.05] text-white">
+                    <div className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.05] text-white">
                         Frontend Developer
                     </div>
-                    <div className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.05] text-white">
+                    <div className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.05] text-white">
                         crafting{" "}
                         <span
                             style={{
@@ -64,7 +64,7 @@ export default function Hero() {
                             scalable and
                         </span>
                     </div>
-                    <div className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.05]">
+                    <div className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.05]">
                         <span
                             style={{
                                 background: "linear-gradient(90deg, #A78BFA 0%, #38BDF8 100%)",

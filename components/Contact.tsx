@@ -77,7 +77,7 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto flex flex-col gap-14">
         <div className="flex flex-col gap-6">
           <Badge>Get In Touch</Badge>
-          <div className="text-4xl lg:text-6xl font-black tracking-tight leading-tight text-white">
+          <div className="text-3xl lg:text-6xl font-black tracking-tight leading-tight text-white">
             <div>Let's build something</div>
             <div>amazing <span className="text-violet-400">together</span></div>
           </div>

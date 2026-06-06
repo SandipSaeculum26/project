@@ -17,7 +17,7 @@ export default function Experience() {
           className="flex flex-col gap-6"
         >
           <Badge>Experience</Badge>
-          <div className="text-5xl lg:text-6xl font-black tracking-tight leading-[1.1] text-white">
+          <div className="text-4xl lg:text-6xl font-black tracking-tight leading-[1.1] text-white">
             <div>1+ year shipping production</div>
             <div>frontends</div>
           </div>

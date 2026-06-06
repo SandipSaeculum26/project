@@ -18,7 +18,7 @@ export default function Blog() {
           className="flex flex-col gap-5"
         >
           <Badge>Writing</Badge>
-          <div className="text-4xl lg:text-6xl font-black tracking-tight leading-tight text-white">
+          <div className="text-3xl lg:text-6xl font-black tracking-tight leading-tight text-white">
             Notes on what I <span className="text-violet-400">build</span>
           </div>
           <div className="max-w-2xl text-white/45 text-base leading-relaxed">

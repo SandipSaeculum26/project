@@ -29,8 +29,8 @@ export default function Navbar() {
             <div className="max-w-6xl mx-auto px-4">
                 <div
                     className={`flex items-center justify-between px-5 py-3 rounded-2xl transition-all duration-300 ${isScrolled
-                            ? "shadow-xl shadow-black/40 bg-[#0C0C12]/90 backdrop-blur-xl"
-                            : "backdrop-blur-xl bg-[#0C0C12]/70"
+                            ? "shadow-xl shadow-black/40 bg-[#0C0C12]/50 backdrop-blur-xl"
+                            : "backdrop-blur-xl bg-[#0C0C12]/10"
                         }`}
                 >
                     {/* Left Section */}
@@ -40,10 +40,6 @@ export default function Navbar() {
                             SY
                         </div>
 
-                        {/* Name */}
-                        <div className="font-semibold text-white text-sm">
-                            Sandeep Yadav
-                        </div>
                     </div>
 
                     {/* Desktop Navigation */}

@@ -45,7 +45,7 @@ export default function About() {
           className="flex flex-col gap-6"
         >
           <Badge>About</Badge>
-          <div className="text-4xl lg:text-6xl font-black tracking-tight leading-tight text-white">
+          <div className="text-3xl lg:text-6xl font-black tracking-tight leading-tight text-white">
             <div>Building interfaces that feel</div>
             <div>inevitable</div>
           </div>
