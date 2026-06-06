@@ -73,7 +73,7 @@ export default function Skills() {
           className="flex flex-col gap-6"
         >
           <Badge>Skills</Badge>
-          <div className="text-4xl lg:text-6xl font-black tracking-tight leading-tight text-white">
+          <div className="text-3xl lg:text-6xl font-black tracking-tight leading-tight text-white">
             The stack I reach for
           </div>
         </motion.div>
