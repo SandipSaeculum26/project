@@ -112,7 +112,7 @@ export const portfolioData = {
         "Developed a cutting-edge note-taking app that integrates AI capabilities for intelligent note organization, search, and summarization.",
       image:
         "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=600&fit=crop",
-      tech: ["React", "TypeScript", "Tailwind CSS", "AI Integration"],
+      tech: ["React", "TypeScript", "Tailwind CSS", "Node.js" , "MongoDB" , "Express"],
       liveUrl: "https://notes-aura-ai-two.vercel.app/",
       githubUrl: "https://github.com",
       featured: false,
