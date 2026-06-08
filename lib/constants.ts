@@ -40,7 +40,7 @@ export const portfolioData = {
       category: "Architecture",
       items: [
         { name: "Monorepo", level: 80 },
-        { name: "Microservices", level: 75 },
+        { name: "Micro Frontends", level: 75 },
         { name: "Component Design", level: 90 },
       ],
     },
